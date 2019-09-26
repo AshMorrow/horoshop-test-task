@@ -18,7 +18,10 @@
     "autoload": {
         "psr-4": {
             "Horoshop\\": "src/"
-        }
+        },
+        "files": [
+            "config/app.php"
+        ]
     },
     "scripts": {
         "test" : "vendor/bin/phpunit"
